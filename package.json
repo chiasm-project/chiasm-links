@@ -1,0 +1,30 @@
+{
+  "name": "chiasm-links",
+  "version": "0.2.0",
+  "description": "Data binding between components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiasm-project/chiasm-links.git"
+  },
+  "keywords": [
+    "data",
+    "binding",
+    "chiasm"
+  ],
+  "author": "Curran Kelleher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiasm-project/chiasm-links/issues"
+  },
+  "homepage": "https://github.com/chiasm-project/chiasm-links",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chiasm": "^0.2.0",
+    "chiasm-component": "^0.2.1",
+    "mocha": "^2.3.2"
+  }
+}

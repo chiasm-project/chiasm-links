@@ -4,6 +4,7 @@
 //
 //  * Unidirectional  `myComponent.myPropertyA -> myOtherComponent.myPropertyB`
 //  * Bidirectional (planned, not implemented)  `myComponent.myPropertyA <-> myOtherComponent.myPropertyB`
+var ChiasmComponent = require("chiasm-component");
 function Links(chiasm) {
 
   var my = ChiasmComponent({
@@ -45,9 +46,7 @@ function Links(chiasm) {
 
           // Add a reactive function that binds the source to the target.
           var listener = sourceComponent.when(sourceProperty, function(value){
-            if(targetComponent[targetProperty] !== value){
-              targetComponent[targetProperty] = value;
-            }
+            targetComponent[targetProperty] = value;
           });
 
           // Keep track of the added listener so it can be removed later.
@@ -62,3 +61,5 @@ function Links(chiasm) {
 
   return my;
 }
+
+module.exports = Links;
