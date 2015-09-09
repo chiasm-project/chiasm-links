@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chiasm-project/chiasm-links.svg)](https://travis-ci.org/chiasm-project/chiasm-links)
 
-Data binding between components.
+Data binding between Chiasm components.
 
 This is a Chiasm plugin that does data binding between Chiasm components. It
 uses a domain specific language (DSL) to express data binding links between two components, like this:
