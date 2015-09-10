@@ -23,10 +23,9 @@ function ChiasmLinks(chiasm) {
   model.when("bindings", function (bindings){
 
     // Clear out the listeners for the old bindings.
-    // TODO write tests that cover this.
     listeners.forEach(function (d){
       chiasm.getComponent(d.alias).then(function (component){
-        components.cancel(d.listener);
+        component.cancel(d.listener);
       });
     });
     listeners = [];
