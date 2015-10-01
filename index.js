@@ -1,5 +1,4 @@
 // chiasm-links.js
-// v__VERSION__
 // github.com/chiasm-project/chiasm-links
 //
 // This is a Chiasm plugin that does data binding between Chiasm components. It
