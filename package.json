@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/chiasm-project/chiasm-links",
   "devDependencies": {
-    "browserify": "^11.0.1",
+    "browserify": "^11.2.0",
     "browserify-shim": "^3.8.10",
-    "chai": "^3.2.0",
-    "chiasm": "^0.2.0",
-    "chiasm-component": "^0.2.1",
-    "mocha": "^2.3.2"
+    "chai": "^3.3.0",
+    "chiasm": "^0.2.2",
+    "chiasm-component": "^0.2.2",
+    "mocha": "^2.3.3"
   },
   "browserify-shim": {
     "chiasm-component": "global:ChiasmComponent",
